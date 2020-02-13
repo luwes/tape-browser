@@ -1,6 +1,6 @@
 {
   "name": "tape-browser",
-  "version": "1.0.0",
+  "version": "4.13.0",
   "main": "dist/tape.js",
   "scripts": {
     "build": "browserify tape.js --standalone tape -o dist/tape.js"
