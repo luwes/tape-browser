@@ -1,0 +1,15 @@
+{
+  "name": "tape-browser",
+  "version": "1.0.0",
+  "main": "dist/tape.js",
+  "scripts": {
+    "build": "browserify tape.js --standalone tape -o dist/tape.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "tape": "^4.13.0"
+  },
+  "devDependencies": {
+    "browserify": "^16.5.0"
+  }
+}
